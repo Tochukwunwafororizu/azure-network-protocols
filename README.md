@@ -37,7 +37,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 
 <p>
-In this Lab we will be creating two VM 
+We will start by creating two virtual machines(Windows, Linux[Ubuntu]) and create a virtual Network named Lab2-Vnet. Most importanly, the two VM  created must have the same Resource Group name and Virtual Network.
 </p>
 <br />
 
