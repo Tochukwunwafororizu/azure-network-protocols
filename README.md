@@ -61,7 +61,27 @@ the wireshark, filter for ICMP traffic only. ICMP traffic is what ping command u
 
   
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<p>  
+Next: We are going to configure a firewall ( Network security group). To do that we are going to initiate non-stop ping. On our windows powershell ping 10.0.0.5 (private IP Address of Linux vm) -t and watch it go non stop. In the background as we can see wireshark is capturing these pings.
+  
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/FCZT4GV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+
+</p>
+<p> 
+Next: Diasable icmp traffic. We are going to configure Linux vm cloud firewall (The network security group) and tell it to block all incoming ping traffic from the windows vm and we are going to observe what happens when we do that. To achieve this, go to the Linux vm -Networking- Network settings - Linux-vm-nsg(Network Security Group) - Settings -Inbound security rules( Create a rule for inbound traffic coming) - Add a rule. After observing it re- enable it again by simply  deleting the rule.
+
+<p>
+<img src="https://i.imgur.com/mJxK0XQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QhQjrir.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/cUnOT5q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/CpCY5jf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tOMoe1Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/HzsqsH9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Kgk173c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
