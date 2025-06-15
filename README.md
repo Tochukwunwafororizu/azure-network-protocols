@@ -69,7 +69,7 @@ Next: We are going to configure a firewall ( Network security group). To do that
 
 <p>
 <img src="https://i.imgur.com/FCZT4GV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
+ 
 
 </p>
 <p> 
@@ -83,5 +83,14 @@ Next: Diasable icmp traffic. We are going to configure Linux vm cloud firewall (
 <img src="https://i.imgur.com/tOMoe1Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/HzsqsH9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/Kgk173c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p> 
+Next: We are going to observe SSH traffic in wireshark. The SSH (secure shell) is used to make a secure connection from one computer to another. To observe the traffic, we will go to our windows computer and make ssh connection into our Linux computer and observe the traffic. Open up windows powersell and type  ssh labuser@10.0.0.5(private IP Address of our Linux computer). Notice our prompt changed to labuser@Linux-vm which means we are actually connected to the Linux machine.
+
+<p>
+<img src="https://i.imgur.com/BfxHIhL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+
  
