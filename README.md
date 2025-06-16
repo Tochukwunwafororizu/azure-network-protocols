@@ -92,6 +92,13 @@ Next: We are going to observe SSH traffic in wireshark. The SSH (secure shell) i
 <p>
 <img src="https://i.imgur.com/n3Ur7r8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
 <img src="https://i.imgur.com/BfxHIhL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- 
+
+
+</p>
+<p> 
+dfff
 
  
+<p>
+<img src="https://i.imgur.com/z5vUWaG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>  
