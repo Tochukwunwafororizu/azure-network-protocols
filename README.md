@@ -89,7 +89,7 @@ Next: We are going to observe SSH traffic in wireshark. The SSH (secure shell) i
 
 </p>
 <p> 
-dfff
+Finally, we are going to filter for DNS and see the traffic.
 
  
 <p>
